@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/javascript,vscode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=javascript,vscode,node
+# Created by https://www.toptal.com/developers/gitignore/api/javascript,vscode,node,yarn
+# Edit at https://www.toptal.com/developers/gitignore?templates=javascript,vscode,node,yarn
 
 #!! ERROR: javascript is undefined. Use list command to see defined gitignore types !!#
 
@@ -123,4 +123,20 @@ dist
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/javascript,vscode,node
+### yarn ###
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
+# End of https://www.toptal.com/developers/gitignore/api/javascript,vscode,node,yarn
